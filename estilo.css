@@ -1,0 +1,190 @@
+@import url("reset.css");
+
+
+
+/* CSS Document */
+
+body{text-align:left;
+	background-color: #F8F2ED;
+	font-family: Arial,Helvetica,sans-serif;
+    color: #40444f;}
+
+.todoelpadre{ width: 100%; height: 100%; }
+
+h1{font-size: 40px;
+color: #40444f}
+p{color: #40444f;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: normal;}
+
+/*ACA EMPIEZA MENU*/
+ul li {list-style: none;} /*para que no tenga estilo*/
+
+.nav li a {
+	
+	color:#40444f;
+	text-decoration: none;
+	padding: 10px 15px;
+	display:flex;
+}
+.logo li{
+	margin: 5px 50px 10px 5px;
+    float: left;}
+.nav li{
+	margin: 20px 50px 10px 5px;
+    float: left;}
+.img li{
+	margin: 5px 15px 10px 5px;
+    float: left;}
+.nav li ul {
+	display:flex;
+position: absolute;
+min-width: 100px;
+}
+.ordenmenu{font-size: 17px;word-spacing: 15px; }
+
+.portada{width: 400px;
+	height: 850px;
+	background-color: #FFFFFF; 
+	padding: 10px;
+	margin: 20px
+}
+.bajartexto{top:15px}
+
+/*ACA EMPIEZA CONTAINER */
+.container{margin: 0 auto 20px;
+    position:relative;
+    height: 76px;
+    top: 5px; 
+	width: 85%
+}
+
+/*FOOTER*/
+.abajo {
+    position: relatives;
+    border: 1px;
+    height: 150px;
+    background-color:#BE947C;
+    margin: 40px auto 0;
+    bottom: 0px;
+}
+
+.vartolla{
+    position: absolute;
+        margin: 0 15px;
+}
+
+
+.iconos {
+    list-style: none;
+    position: absolute;
+    width: 89px;
+    left: 889px;
+    top: -48px;
+}
+
+.datos { 
+    position: relative;
+    top: 50px;
+	letter-spacing: 1px;;
+	text-align: center
+}
+.datos p{color: #F7EFEC}
+
+/*INDEX*/
+/*Fotos al lado de texto*/
+.caja1 {
+  height: 350px;
+  position: relative;
+}
+.image {
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+.text {
+    z-index: 100;
+    position: absolute;
+    font-size: 18px;
+    left: 439px;
+    top: 60px;
+    width: 543px;
+    height: 154px;
+    text-align: left
+}
+/*Fotos debajo de texto*/
+.caja2{height: 500px;
+  position: relative;}
+.izq{
+    position: absolute;
+    left: 4px;
+    top: -3px;
+    padding: 0px;
+    width: 245px;
+    height: 420px;
+}
+
+.centro{
+    position: absolute;
+    left: 377px;
+    height: 420px;
+    width: 245px;
+    top: 2px;
+}
+
+.derec{
+    position: absolute;
+    poleft: 1300px;
+    left: 733px;
+    top: 2px;
+    height: 420px;
+    width: 245px
+}
+
+/*PAGINA QUIENES SOMOS*/
+.caja3 {
+  height: 190px;
+  position: relative;
+}
+.text2 {
+    position: absolute;
+    color: #40444f;
+    font-size: 18px;
+    font-family: calibri;
+    width: 976px;
+    line-height: 1.2;
+    left: 0px;
+   
+}
+
+/*Pagina contacto*/
+.cajacontacto{    height: 450px;
+    position: relative;
+    top: 55px;}
+.formulario{
+    position: absolute;
+    left: -3px;
+    top: 16px;
+    padding: 0px;
+    width: 245px;
+    height: 215px;
+}
+
+.contacto{
+    position: absolute;
+    poleft: 1300px;
+    left: 358px;
+    top: 13px;
+    height: 281px;
+    width: 288px
+}
+.contacto2{
+    position: relative;
+    poleft: 1300px;
+    left: 687px;
+    top: 11px;
+    height: 281px;
+    width: 288px;
+	text-align: right
+}
